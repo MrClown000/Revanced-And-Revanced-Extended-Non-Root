@@ -1,7 +1,29 @@
-[{
-  "patchName" : "Spoof streaming data",
+[ {
+  "patchName" : "Custom branding name for YouTube Music",
   "options" : [ {
-    "key" : "useIOSClient",
-    "value" : true
+    "key" : "appNameNotification",
+    "value" : "YT RVX Music"
+  }, {
+    "key" : "appNameLauncher",
+    "value" : "YT RVX Music"
   } ]
-}]
+}, {
+  "patchName" : "Custom branding name for YouTube",
+  "options" : [ {
+    "key" : "appName",
+    "value" : "YouTube RVX"
+  } ]
+}, {
+  "patchName": "Custom branding icon for YouTube",
+  "options": [ {
+    "key": "appIcon",
+    "value" : "youtube_black"
+  } ]
+}, {
+  "patchName": "Custom branding icon for YouTube Music",
+  "options": [ {
+    "key": "appIcon",
+    "value" : "vanced_black"
+  } ]
+}
+]
